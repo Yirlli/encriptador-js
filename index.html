@@ -12,19 +12,21 @@
 
     </header>
     <main>
-        <section>
-            <textarea class="text-area" cols="30" rows="10" name="text-area" placeholder="Ingresa el texto que deseas encriptar"></textarea>
+        <section class="container-en">
+            <textarea class="text-area"  name="text-area" placeholder="Ingresa el texto que deseas encriptar"></textarea>
             <div> 
                 <h6 class="informacion">Solo letras minusculas y sin acento</h6>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
                 <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="btn-limpiar" onclick="btnLimpiar()">Limpiar</button>
+
             </div>
 
         </section>
-        <section>
-            <textarea class="mensaje" id="" cols="20" rows="10"></textarea>
+        <section class="container-des">
+            <textarea class="mensaje" id="" >Texto Encriptado</textarea>
             <div>
                 <button class="copiar">Copiar</button>
                 
